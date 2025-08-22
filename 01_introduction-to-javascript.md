@@ -42,3 +42,54 @@ and handle events, making websites dynamic and user-friendly.
         functions.
     2.  **Execution Phase** → Code is executed line by line.
 -   The **Call Stack** manages the order of execution of these contexts.
+
+
+## JavaScript Implementation Methods
+
+There are three main ways to use JavaScript in a web page:
+
+1. **Inline JavaScript**  
+   JavaScript is written directly inside an HTML element’s attribute.
+
+   ```html
+   <button onclick="alert('Hello World!')">Click Me</button>
+   ```
+
+2. **Internal JavaScript**  
+   JavaScript is written inside the `<script>` tag in the HTML file.
+
+   ```html
+   <script>
+     console.log("Hello from Internal JavaScript!");
+   </script>
+   ```
+
+3. **External JavaScript**  
+   JavaScript code is written in a separate `.js` file and linked to the HTML.
+
+   ```html
+   <script src="app.js"></script>
+   ```
+
+---
+
+## JavaScript Comments
+
+Comments are used to make code more readable and to explain what the code does. They are ignored by the JavaScript engine.
+
+1. **Single-line Comment**
+
+   ```javascript
+   // This is a single-line comment
+   let x = 10; // Variable x stores the value 10
+   ```
+
+2. **Multi-line Comment**
+
+   ```javascript
+   /*
+     This is a multi-line comment.
+     It can span multiple lines.
+   */
+   let y = 20;
+   ```
